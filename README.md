@@ -28,7 +28,7 @@ Para clonar e executar este aplicação, você vai precisará do [Git] (https://
 $ git clone https://github.com/gabriel-oliveira800/food-page-examplo-react
 
 #Entre na pasta do projeto
-$cd annotations-app
+$cd food-page-examplo-react
 
 # Intale as dependencias
 $ npm install 
