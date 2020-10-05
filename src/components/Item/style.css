@@ -1,0 +1,108 @@
+.content-item {
+    width: 380px;
+    height: 540px;
+    margin: 12px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
+.content-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-item * {
+    background-color: #f9f9f9;
+}
+
+.content-item img {
+    width: 380px;
+    height: 280px;
+    border-radius: 8px 8px 0 0;
+}
+
+.content-item .content-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+}
+
+.content-info h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #3e3e3e;
+    padding: 8px 0;
+}
+
+.content-info .description {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.22;
+    color: #717171;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.content-info .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-info .rating span {
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #3e3e3e;
+    padding-right: 12px;
+}
+
+.content-info .rating img {
+    height: 20px;
+    width: 20px;
+    padding: 0 2px;
+}
+
+.content-item .buy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content-item .buy span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #50a773;
+    padding-right: 68px;
+}
+
+.content-item .buy button {
+    min-width: 80px;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px;
+    margin: 0 3px;
+    font-weight: 500;
+    transition: 100ms;
+    color: #f9f9f9;
+    background-color: #ea1d2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
